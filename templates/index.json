@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try the worlds aroma",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products 🖤",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "c680037f-e422-423d-94d1-1ede4eda91a0": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts 💡",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "282782e7-1048-44c5-be60-1f193b778f8f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee",
+            "heading_size": "h1"
+          }
+        },
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join the Coffee Club and indulge in our premium coffee blends and delicious food options, all while enjoying a warm and welcoming atmosphere perfect for meeting friends or getting work done.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-0",
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-1",
+        "template--18525779591466__282782e7-1048-44c5-be60-1f193b778f8f-1680039562a0e5ef80-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_pack-t.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6d06dd5a-d2ff-4651-bb1c-bf20ac4c1f4a": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Roasting-video-thumbnail.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/video\/582023095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f20234a5-fcbe-499b-9ec6-54bcb45dd753": {
+      "type": "collage",
+      "blocks": {
+        "template--18525779591466__f20234a5-fcbe-499b-9ec6-54bcb45dd753-168004423115a3ef1a-1": {
+          "type": "product",
+          "settings": {
+            "product": "coffee-ethiopia",
+            "second_image": false
+          }
+        },
+        "4c86394e-5714-497f-b2a5-7ca17fd93578": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.png"
+          }
+        },
+        "template--18525779591466__f20234a5-fcbe-499b-9ec6-54bcb45dd753-168004423115a3ef1a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--18525779591466__f20234a5-fcbe-499b-9ec6-54bcb45dd753-168004423115a3ef1a-1",
+        "4c86394e-5714-497f-b2a5-7ca17fd93578",
+        "template--18525779591466__f20234a5-fcbe-499b-9ec6-54bcb45dd753-168004423115a3ef1a-0"
+      ],
+      "settings": {
+        "heading": "Coffee of the Month 🌟",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "c680037f-e422-423d-94d1-1ede4eda91a0",
+    "282782e7-1048-44c5-be60-1f193b778f8f",
+    "6d06dd5a-d2ff-4651-bb1c-bf20ac4c1f4a",
+    "f20234a5-fcbe-499b-9ec6-54bcb45dd753"
+  ]
+}
