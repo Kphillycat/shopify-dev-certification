@@ -25,6 +25,11 @@ cart-items.is-empty .title-wrapper-with-link,
   margin: 4.5rem 0 2rem;
 }
 
+.cart-drawer__upsell_product_headline {
+  text-align: center;
+  padding: 1rem 0;
+}
+
 .cart__contents > * + * {
   margin-top: 2.5rem;
 }
