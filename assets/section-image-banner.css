@@ -436,3 +436,18 @@
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
 }
+
+/* Video Styles */
+.banner__media-desktop-video {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .banner__media-desktop-video {
+    display: block;
+  }
+
+  .banner__media-mobile-video {
+    display: none;
+  }
+}

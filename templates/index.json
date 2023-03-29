@@ -28,6 +28,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "desktop_video": "shopify:\/\/files\/videos\/Desktop video.mp4",
+        "mobile_video": "shopify:\/\/files\/videos\/mobile-coffee-video.mp4",
+        "show_video": false,
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
