@@ -438,16 +438,6 @@
 }
 
 /* Video Styles */
-.banner__media-desktop-video {
-  display: none;
-}
-
-@media screen and (min-width: 750px) {
-  .banner__media-desktop-video {
-    display: block;
-  }
-
-  .banner__media-mobile-video {
-    display: none;
-  }
+#banner__media-video video {
+  object-fit: cover;
 }
