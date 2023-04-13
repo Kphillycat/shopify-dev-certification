@@ -6,7 +6,7 @@
 {% endcomment %}
 
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
-
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 <style>
   .drawer {
     visibility: hidden;
@@ -363,6 +363,30 @@
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
       </cart-drawer-items>
+        {%- if settings.cart_drawer_upsell_product != blank and cart != empty -%}
+          <div class="cart-drawer__upsell_product-container">
+            {% assign cart_contains_upsell = false %}
+            {%- for item in cart.items -%}
+                {%- if item.product_id == settings.cart_drawer_upsell_product.id -%}
+                  {% assign cart_contains_upsell = true %}
+                {%- endif -%}
+            {%- endfor -%} 
+
+            {%- if cart_contains_upsell != true -%}
+              {%- if settings.cart_drawer_upsell_product_headline -%}
+                  <div class="cart-drawer__upsell_product_headline">{{ settings.cart_drawer_upsell_product_headline }}</div>
+              {%- endif -%}
+
+              <div class="cart-drawer__upsell_product">
+                  {% render 'card-product',
+                  card_product: settings.cart_drawer_upsell_product,
+                  show_quick_add: true,
+                  section_id: section.id
+                  %}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
@@ -443,6 +467,7 @@
           </button>
         </div>
       </div>
+      
     </div>
   </div>
 </cart-drawer>

@@ -127,7 +127,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "cart_drawer_upsell_product": "coffee-vietnam",
+    "cart_drawer_upsell_product_headline": "Thinking about coffee??",
+    "cart_drawer_upsell_product": "coffee-ethiopia",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
